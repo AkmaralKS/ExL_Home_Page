@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hall of Impact | ExL Impact</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+
+<body>
+
+  <div class="utility-bar">
+    <div class="utility-inner">
+      <a href="#">ASU Home</a>
+      <a href="#">My ASU</a>
+      <a href="#">Colleges and schools</a>
+      <a href="#">Sign in</a>
+      <div class="utility-search">
+        <span>Search</span>
+      </div>
+    </div>
+  </div>
+
+  <header class="main-nav">
+    <div class="nav-inner">
+      <div class="logo-container">
+        <a href="index.html">
+          <img class="logo-image exl-logo" src="images/logo.png" alt="ExL Impact logo">
+        </a>
+      </div>
+
+      <nav class="primary-links">
+        <ul>
+          <li class="no-line"><a href="index.html">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="hall-of-impact.html">Hall of Impact</a></li>
+          <li><a href="placeholder-get-involved.html">Get Involved</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="hoi-hero">
+      <div class="hoi-hero-content">
+        <p class="hoi-eyebrow">Experiential learning at ASU</p>
+        <h1>Real learning. Real impact. <span>Your future.</span></h1>
+        <p>
+          Explore student success stories, hands-on projects, and meaningful learning experiences
+          that connect classroom knowledge to real-world impact.
+        </p>
+
+        <div class="hoi-button-row">
+          <a href="#hoi-featured" class="hoi-btn hoi-btn-gold">Explore opportunities</a>
+          <a href="#hoi-stories" class="hoi-btn hoi-btn-light">Impact stories</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="hoi-stats">
+      <div>
+        <strong>500+</strong>
+        <span>Student experiences</span>
+      </div>
+
+      <div>
+        <strong>120+</strong>
+        <span>Community partners</span>
+      </div>
+
+      <div>
+        <strong>50+</strong>
+        <span>Faculty connections</span>
+      </div>
+    </section>
+
+    <section class="hoi-pathway">
+      <div class="hoi-section-intro">
+        <p class="hoi-eyebrow hoi-maroon">Find your pathway</p>
+        <h2>What do you want to do?</h2>
+      </div>
+
+      <div class="hoi-pathway-grid">
+        <a href="placeholder-project.html" class="hoi-pathway-card">
+          <img src="images/icon-project.png" alt="">
+          <h3>Find a project</h3>
+          <p>Discover real-world projects connected to your interests and goals.</p>
+        </a>
+
+        <a href="placeholder-explore.html" class="hoi-pathway-card">
+          <img src="images/icon-explore.png" alt="">
+          <h3>Explore ExL</h3>
+          <p>Learn how experiential learning supports your academic path.</p>
+        </a>
+
+        <a href="placeholder-portfolio.html" class="hoi-pathway-card">
+          <img src="images/icon-portfolio.png" alt="">
+          <h3>Build your portfolio</h3>
+          <p>Turn hands-on work into meaningful examples of your skills.</p>
+        </a>
+
+        <a href="placeholder-involved.html" class="hoi-pathway-card">
+          <img src="images/icon-involved.png" alt="">
+          <h3>Get involved</h3>
+          <p>Connect with events, campus experiences, and future opportunities.</p>
+        </a>
+      </div>
+    </section>
+
+    <section id="hoi-featured" class="hoi-featured">
+      <div class="hoi-section-intro">
+        <p class="hoi-eyebrow hoi-maroon">Featured opportunities</p>
+        <h2>Explore ways to make an impact</h2>
+      </div>
+
+      <div class="hoi-card-grid">
+        <article class="hoi-card">
+          <img src="images/career-development.png" alt="Career development opportunity">
+          <div class="hoi-card-content">
+            <a href="placeholder-career.html" class="hoi-tag">Career Development</a>
+            <h3>Project-based experience</h3>
+            <p>Work with teams and partners to solve real challenges.</p>
+          </div>
+        </article>
+
+        <article class="hoi-card">
+          <img src="images/microscope.png" alt="Student working with a microscope">
+          <div class="hoi-card-content">
+            <a href="placeholder-research.html" class="hoi-tag">Research</a>
+            <h3>Applied discovery</h3>
+            <p>Connect research, design, and testing through hands-on work.</p>
+          </div>
+        </article>
+
+        <article class="hoi-card">
+          <img src="images/graduation.png" alt="ASU graduates celebrating">
+          <div class="hoi-card-content">
+            <a href="placeholder-community.html" class="hoi-tag">Community</a>
+            <h3>Event marketing</h3>
+            <p>Support outreach experiences that connect students and partners.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="hoi-stories" class="hoi-stories">
+      <article class="hoi-story-panel">
+        <img src="images/student-story.png" alt="Student writing in a notebook">
+        <div class="hoi-story-overlay hoi-story-gold">
+          <blockquote>
+            “ExL helped me turn classroom learning into real-world impact and opened doors I never expected.”
+          </blockquote>
+          <p>Student testimonial</p>
+        </div>
+      </article>
+
+      <article class="hoi-story-panel">
+        <img src="images/student-story-2.png" alt="Student success story">
+        <div class="hoi-story-overlay hoi-story-dark">
+          <p class="hoi-date">Apr 28</p>
+          <h2>Student success story</h2>
+          <p>See how hands-on learning connects students with meaningful experience.</p>
+          <a href="placeholder-success-story.html" class="hoi-btn hoi-btn-gold">Read story</a>
+        </div>
+      </article>
+    </section>
+
+    <section class="hoi-cta">
+      <h2>Ready to get started?</h2>
+      <p>Join the ExL community and find your next opportunity today.</p>
+      <a href="placeholder-get-involved.html" class="hoi-btn hoi-btn-light">Get involved</a>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-column">
+        <div class="logo-container">
+          <img class="logo-image exl-logo" src="images/logo.png" alt="ExL Impact logo">
+        </div>
+        <p>EXPERIENTIAL LEARNING @ TPS</p>
+      </div>
+
+      <div class="footer-column">
+        <a href="#">About</a>
+      </div>
+
+      <div class="footer-column">
+        <a href="hall-of-impact.html">Hall of Impact</a>
+      </div>
+
+      <div class="footer-column">
+        <a href="placeholder-get-involved.html">Get Involved</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
